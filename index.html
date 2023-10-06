@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <h1>Contatos</h1>
+        </header>
+        <main>
+            <form id="Form-contato">
+                <input id="contato" type="text" placeholder="Nome do Contato" required>
+                <input id="numero" type="number" min="0" max="99999999"  placeholder="Numero" required >
+                <button type="submit">Salvar</button>
+            </form>
+            <p id="repeated-contact">'Esse contato ja foi adicionado a lista de contato'</p>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Contatos</th>
+                        <th>Numero</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
+</html>

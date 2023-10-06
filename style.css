@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteiner{
+    max-width: 630px;
+    width: 100%;
+    margin: 120px auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+#repeated-contact{
+    margin: 24px 0 64px 0 ;
+    text-align: center;
+    background-color: red;
+}
+input,
+button{
+    padding: 8px;
+}
+
+input{
+    margin-right: 16px;
+    width: 250px;
+}
+
+button{
+    background-color: #8ab3cf;
+    border: none;
+    color: black;
+    width: 64px;
+}
+
+button:hover{
+    background-color: #4180ab;
+    color: #fff;
+}
+
+table{
+    width: 100%;
+    border: solid 2px;
+}
+
+table th{
+    border-bottom: solid 2px black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table tbody{
+    text-align: center;
+    font-size: 18px;
+}
+
+table td{
+    border-bottom: solid 1px black;
+    padding: 8px;
+}
